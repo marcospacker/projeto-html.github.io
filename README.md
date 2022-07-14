@@ -1,10 +1,14 @@
 ### Primeiro projeto pessoal
 
-- [x] HTML5
-- [x] CSS3
-- [x] JAVASCRIPT
-
+[![html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)]
+[![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]
+[![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]
 
 
 link para acesso do site https://marcospacker.github.io/projeto-html.github.io/
 
+
+
+
+
+[![nome](link)]
