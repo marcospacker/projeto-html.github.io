@@ -1,0 +1,149 @@
+<DOCTYPE html>
+	<html lanf="en">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+		<title> MarcosTest</title>
+	</head>
+
+	<body>
+		<header class="menu-principal">
+			<main>
+				<div class="header-1">
+					<div class="logo">
+						<img src="./img/logom.png" />
+					</div>
+
+					<div class="logo-superior">
+						<ul>
+							<li> <a href=""> <img src="./img/logo1.png" /> </a> </li>
+							<li> <a href=""> <img src="./img/logo2.png" /> </a> </li>
+							<li> <a href=""> <img src="./img/logo3.png" /> </a> </li>
+						</ul>
+					</div>
+
+				</div>
+			</main>
+		</header>
+
+		<main>
+			<div class="col-100 menu-link">
+				<div clas="header-2">
+
+					<div class="menu">
+						<ul>
+							<li> <a href=""> INICIO </a> </li>
+							<li> <a href=""> PRODUTOS </a> </li>
+							<li> <a href=""> DESTAQUES </a> </li>
+							<li> <a href=""> SUPORTE </a> </li>
+						</ul>
+					</div>
+
+					<div class="busca">
+						<input placeholder="Pesquisar" type="text" />
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<div class="col-100">
+			<div class="slider-principal" style="height:600px;">
+				<img src="./img/image1.jpg" />
+				<img src="./img/image1.jpg" />
+				<img src="./img/image1.jpg" />
+			</div>
+		</div>
+
+		<div class="col-100 bloco-imagens-texto">
+			<div class="content" style="margin-left: 26%;">
+
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image2.jpeg">
+					<p><b> O OLHAR FUTURISTA </b></p>
+					<p>O principal diferencial de um futurista é o foco em crescimento constante e a disposição a
+						crescer pelo aprendizado.</p>
+				</div>
+
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image3.png">
+					<p><b>CIDADES FUTURISTAS</b></p>
+					<p>Ao redor do mundo, cidades estão sendo construídas do zero com planos ousadas que parecem parte
+						de filmes futuristas.</p>
+				</div>
+
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image4.png">
+					<p><b>A MEDICINA</b></p>
+					<p>Já existem inúmeros testes de robôs e ferramentas eletrônicas que podem contribuir para o avanço
+						da medicina.</p>
+				</div>
+
+			</div>
+
+			<div class="content" style="margin-left: 26%;">
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image5.jpg">
+					<p><b>INTELIGÊNCIA ARTIFICIAL</b></p>
+					<p>A combinação da robótica com softwares e uma base de dados poderá revolucionar diferentes setores
+						da vida.</p>
+				</div>
+
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image6.jpg">
+					<p><b>AUTOMÓVEIS DO FUTURO</b></p>
+					<p>A ideia é que o automóvel seja capaz de dirigir totalmente independente do auxílio humano.</p>
+				</div>
+
+				<div class="col-3 bloco-texto bloco-imagem">
+					<img src="./img/image7.jpg">
+					<p><b>NANOTECNOLOGIA</b></p>
+					<p>Uma forma muito utilizada são os microprocessadores, que permitem equipamentos cada vez menores e
+						mais funcionais</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="col-100 final">
+			<div class="header-3">
+				<main>
+					<div class="links-inferior">
+						<ul>
+							<li> <a href=""> Política de Privacidade </a> </li>
+							<li> <a href=""> Termos de Uso</a> </li>
+							<li> <a href=""> Produtos e Companhia </a> </li>
+							<li> <a href=""> Fale Conosco </a> </li>
+						</ul>
+					</div>
+
+					<div class="direitos">
+						<p>© 2022 Marcos Packer</p>
+					</div>
+
+				</main>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/jquery-migrate.js"></script>
+		<script type="text/javascript" src="./slick/slick.min.js"></script>
+		<script type="text/javascript">
+
+			$(document).ready(function () {
+				$('.slider-principal').slick({
+					dots: true,
+					infinite: true,
+					speed: 300,
+					slidesToShow: 1,
+					adaptiveHeight: true,
+					autoplay: true,
+					autoplaySpeed: 2000
+				});
+			});
+		</script>
+	</body>
+
+	</html>
