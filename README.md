@@ -7,8 +7,8 @@
 #### Pre-Visualização
 <div align="left">
   <a href="https://github.com/marcospacker">
-  <img height="380em" width="600"  src="https://user-images.githubusercontent.com/106535353/179616104-9377c668-7a32-4cb0-9e1e-58d209cf1aa5.png"/>
-  <img height="380em" width="600" src="https://user-images.githubusercontent.com/106535353/179616712-7f567aca-653f-48cf-a57f-4e3927c01ca6.png"/>
+  <img height="380em" width="1280"  src="https://user-images.githubusercontent.com/106535353/179616104-9377c668-7a32-4cb0-9e1e-58d209cf1aa5.png"/>
+  <img height="380em" width="1280" src="https://user-images.githubusercontent.com/106535353/179616712-7f567aca-653f-48cf-a57f-4e3927c01ca6.png"/>
 </div>
 
 #### Para acessar o resultado:
